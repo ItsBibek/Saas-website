@@ -46,7 +46,7 @@ export default function HeroSection() {
         </div>
         <div className="relative w-full max-w-5xl aspect-[16/9] rounded-lg overflow-hidden">
           <Image
-            src="/images/44.jpeg" 
+            src="/images/heroo.png" 
             alt="Reweb Interface"
             layout="fill"
             objectFit="cover"

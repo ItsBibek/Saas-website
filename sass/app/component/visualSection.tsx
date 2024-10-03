@@ -107,7 +107,7 @@ export function Hero() {
           </div>
           <div className="relative h-[400px] md:h-auto">
             <Image
-              src="/images/11.jpg"
+              src="/images/nextt.jpg"
               alt="Visual Editor Interface"
               layout="fill"
               objectFit="cover"
