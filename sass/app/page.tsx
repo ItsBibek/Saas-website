@@ -6,11 +6,20 @@ import Footer from "./component/footer";
 
 export default function Home() {
   return (
-    <main>
-      <HeroSection/> 
+    <main className="bg-[#0c0c14] text-white">
+    <HeroSection />
+    
+    <section id="visualSection" className="py-16">
       <VisualEditorSection />
-      <TestimonialsSection/>
-      <Footer/>
-    </main>
+    </section>
+    
+    <section id="testimonialSection" className="py-16">
+      <TestimonialsSection />
+    </section>
+    
+    <footer id="footerSection" className="py-16">
+      <Footer />
+    </footer>
+  </main>
   );
 }

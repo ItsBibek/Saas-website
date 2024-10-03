@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/link'
+import Navigation from './Navigation'
 
 export default function HeroSection() {
   return (
@@ -9,11 +9,7 @@ export default function HeroSection() {
           <div className="w-8 h-8 bg-purple-600 rounded-md"></div>
           <span className="text-xl font-semibold">Reweb</span>
         </div>
-        <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mb-4 sm:mb-0">
-          <Link href="#" className="text-gray-300 hover:text-white">Community</Link>
-          <Link href="#" className="text-gray-300 hover:text-white">Roadmap</Link>
-          <Link href="#" className="text-gray-300 hover:text-white">Pricing</Link>
-        </nav>
+        <Navigation />
         <div className="flex items-center space-x-4">
           <button className="px-3 py-1 sm:px-4 sm:py-2 text-sm font-medium text-white bg-transparent border border-gray-600 rounded-md hover:bg-gray-700">
             Log in
