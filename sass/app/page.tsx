@@ -18,6 +18,7 @@ export default function Home() {
     
     <footer id="footerSection" className="py-16">
       <Footer />
+      
     </footer>
   </main>
   );
