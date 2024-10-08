@@ -41,7 +41,7 @@ export default function HeroSection() {
             <span className="text-[#38BDF8] font-bold text-2xl">󰿃</span>
           </div>
           <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-            <span className="text-black font-bold text-2xl">//</span>
+            <span className="text-black font-bold text-2xl">&#47;&#47;</span>
           </div>
         </div>
         <div className="relative w-full max-w-5xl aspect-[16/9] rounded-lg overflow-hidden">

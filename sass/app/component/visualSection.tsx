@@ -22,8 +22,7 @@ export default function VisualEditorSection() {
             </div>
             <div className="bg-gray-800 p-4 rounded-md">
               <h3 className="text-2xl font-bold mb-2">Supercharge your development workflow.</h3>
-              <p className="text-gray-400 mb-4">Easily manage tasks, issues, and more. Unlock your team's full potential.</p>
-              <button className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 transition-colors">
+              <p className="text-gray-400 mb-4">Easily manage tasks, issues, and more. Unlock your team&apos;s full potential.</p>              <button className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 transition-colors">
                 Get Started
               </button>
             </div>
